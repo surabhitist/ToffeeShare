@@ -1,0 +1,296 @@
+body {
+  font-family: Roboto;
+  background-color: rgb(45, 45, 54);
+}
+
+.heading-bold {
+  font-weight: 800;
+}
+
+.heading-light {
+  font-weight: 300;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(45, 45, 54);
+  color: white;
+}
+
+.top1 {
+  flex: 2;
+  padding-left: 12px;
+}
+
+.top1 img {
+  width: 60px;
+}
+
+.heading-div {
+  padding-left: 14px;
+}
+
+.toffee-div {
+  font-size: 19px;
+}
+
+.top2 {
+  flex: 1;
+  margin-left: -80px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 70px;
+}
+
+.top3 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.download-div {
+  flex: 1;
+}
+
+.nearby-div {
+  margin-left: 10px;
+  flex: 1;
+  font-size: 19px;
+}
+
+.AZ-div {
+}
+
+.btn-download {
+  color: white;
+  background-color: rgb(228, 99, 30);
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  font-size: 19px;
+  border: none;
+}
+
+.logo-div {
+  display: inline-block;
+}
+
+.heading-div {
+  display: inline-block;
+}
+
+.main-body {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.body1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curve-img {
+  width: 100%;
+}
+
+.box-outer {
+  background-color: rgb(66, 66, 74);
+  height: 300px;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.box-inner {
+  height: 250px;
+  width: 300px;
+  background-color: rgb(66, 66, 74);
+  z-index: 2;
+  border-color: white;
+  border-style: dotted;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.box-inner:hover {
+  background-color: rgba(97, 71, 51, 0.329);
+}
+
+.btn-plus {
+  font-size: 50px;
+  width: 65px;
+  background-color: transparent;
+  border-color: rgb(228, 99, 30);
+  border-style: solid;
+  border-width: 3px;
+  color: rgb(228, 99, 30);
+  border-radius: 100px;
+  margin-top: -10px;
+}
+
+.text1 {
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+.text2 {
+  color: white;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.body2 {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.body3 {
+  background-color: rgb(66, 66, 74);
+  margin-top: -30px;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+.text3 {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.text4 {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+}
+.main-div {
+  display: flex;
+  padding-right: 120px;
+  padding-top: 30px;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.file-div {
+  flex: 1;
+}
+
+.blazing-div {
+  flex: 1;
+}
+
+.whatistoffee {
+  padding-top: 80px;
+}
+
+.text5 {
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.text6 {
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.undrln-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.undrln {
+  height: 2px;
+  width: 30px;
+  background-color: rgb(228, 99, 30);
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 400px;
+}
+
+.content-plus {
+  color: white;
+  background-color: rgb(228, 99, 30);
+  font-size: 50px;
+  width: 130px;
+  height: 100px;
+  padding-top: 30px;
+  border-radius: 100px;
+}
+
+.content1-img {
+  flex: 1;
+}
+
+.content1-text {
+  flex: 5;
+  font-size: 30px;
+  margin-left: -550px;
+}
+
+.div1 {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.div2 {
+  padding-top: 20px;
+}
+
+.blank-class {
+  height: 150px;
+}
+
+.div3 {
+  margin-left: 250px;
+}
+
+.content5 {
+  margin-left: -1000px;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: -350px;
+}
+
+.decor {
+  text-decoration: underline;
+  text-decoration-color: rgb(228, 99, 30);
+  text-decoration-thickness: 3px;
+}
